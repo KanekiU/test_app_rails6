@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   
   root 'pages#home'
   get 'about', to: 'pages#about'
+  get 'form_helpers', to: 'pages#form_helpers'
 end
